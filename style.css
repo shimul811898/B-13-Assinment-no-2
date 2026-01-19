@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   
+     max-width: 100%;
+     width: 1600px;
+     background-color: #1A0B2E;
+}
+
+/* style navber */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    height: 96px;
+    width: 1600px;
+    background-color: #1A0B2E;
+}
+.navbar .nav{
+    display: flex;
+    gap: 32px;
+}
+.navbar .nav li{
+    list-style: none;
+}
+
+.navbar .nav li a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.navbar button{
+    width: 135px;
+    height: 44px;
+    align-items: center;
+    color: #2A186C;
+   background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight:700;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    border-style: none;
+}
+.navbar .Subscribe p{
+    padding: 12.5px 16px;
+}
+   
+
+/* hero-container style */
+.hero-container{
+    background: url(assets/hero-bg.png);
+    max-width: 100%;
+    width: 1600px;
+    background-color: #1A0B2E;
+    background-size:100%;
+    margin-top: 101px;
+    background-repeat: no-repeat;
+   
+    
+}
+.hero-container .hero-circle{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.hero-container .hero-circle .back-img{
+    position: relative;
+    height: 350px;
+    width: 350px;
+
+}
+.hero-container .hero-circle .Top-img{
+    position: absolute;
+}
+
+ .Badge{
+    color:#1A0B2E ;
+    background-color: #00FF88;
+    width: 75px;
+    height: 38px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 8px 16px;
+    font-weight:700;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -240px;
+    position: relative;
+    margin-left: -95px;
+}
+
+.growth{
+    margin-top: 41px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.growth h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.growth p{
+     font-size: 16px;
+     font-family: "Inter", sans-serif;
+     margin: 8px;
+}
+
+.container-btn .btn{
+    width: 201px;
+    height: 44px;
+    align-items: center;
+    color: #2A186C;
+   background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight:700;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    border-style: none
+}
+.container-btn .btn-1{
+    width: 201px;
+    height: 44px;
+    align-items: center;
+    color: #2A186C;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight:700;
+    color: #00FF88;
+    font-family: "Inter", sans-serif;
+    border-width: 1px;
+    border-color: #00FF88;
+    background: none;
+}
+.container-btn{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding-bottom: 101px;
+}
+
+
+/* About the Podcast section */
+
+.section.container{
+    text-align: center;
+    color: #FFFFFF;
+     background-color: #1A0B2E;
+     padding-top: 50px;
+     max-width: 100%;
+     width: 1600px;
+    
+}
+.section .container h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+.section .container p{
+   font-size: 16px;
+    font-family: "Inter", sans-serif;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+
+
