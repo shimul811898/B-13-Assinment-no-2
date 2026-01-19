@@ -147,26 +147,113 @@ header{
 
 
 /* About the Podcast section */
+.hero-review{
+     background-color: #1A0B2E;
+     max-width: 100%;
+     width: 1600px;
+}
 
-.section.container{
+.hero-review .container{
     text-align: center;
     color: #FFFFFF;
      background-color: #1A0B2E;
      padding-top: 50px;
-     max-width: 100%;
-     width: 1600px;
-    
 }
-.section .container h1 {
+
+.hero-review .container h1 {
     font-size: 60px;
     font-weight: 800;
 }
-.section .container p{
-   font-size: 16px;
+.hero-review .container p{
+    font-size: 16px;
     font-family: "Inter", sans-serif;
     line-height: 20px;
     margin-top: 16px;
 }
 
+.rating{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin: 160px 200px 0px 200px;
+}
 
+.rating h1{
+    color: #00FF88;
+    font-size: 48px;
+}
+.rating p{
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 20px;
+     font-family: "Inter", sans-serif;
+     margin-top: 16px;
+     padding-bottom: 120px;
+}
 
+/* hero-access section */
+
+.hero-access{
+    background-color: #230E3D;
+}
+
+.hero-access-container>*{
+    border-radius: 40px;
+    background-color: rgb(53, 17, 101,0.4);
+    border-style: none;
+    padding: 40px;
+    line-height: 40px;
+    
+}
+.hero-access-container{
+    margin: 40px 200px 120px 218px;
+}
+.hero-access-container h6{
+    font-size: 24px;
+    font-weight: 700;
+     font-family: "Inter", sans-serif;
+     color: #FFFFFF;
+}
+
+.hero-access h1{
+     font-size: 48px;
+     font-weight: 700;
+     color: #FFFFFF;
+     text-align: center;
+     padding-top: 120px;
+}
+.hero-access P{
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 20px;
+     font-family: "Inter", sans-serif;
+     margin-top: 16px;
+}
+
+.Audio{
+   grid-area: Audio;
+}
+.Mobile{
+    grid-area: Mobile;
+}
+.Global{
+    grid-area: Global;
+}
+
+.Exclusive-Interviews{
+    grid-area: Exclusive-Interviews;
+}
+
+.Resources{
+    grid-area: Resources;
+}
+.hero-access-container{
+    gap: 30px;
+    display: grid;
+    padding: 40px;
+    grid-template-areas: 
+    "Audio Mobile Mobile"
+    "Audio Global Global"
+    "Exclusive-Interviews Exclusive-Interviews Resources"
+    ;
+}
