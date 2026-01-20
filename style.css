@@ -75,6 +75,7 @@ header {
     background-repeat: no-repeat;
 }
 
+
 .hero-container .hero-circle {
     justify-content: center;
     align-items: center;
@@ -86,13 +87,18 @@ header {
     position: relative;
     height: 21.87rem;
     width: 21.87rem;
-
 }
 
 .hero-container .hero-circle .Top-img {
     position: absolute;
+   transition: transform 2s;
 }
 
+.hero-circle .Top-img:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+
+}
 .Badge {
     color: #1A0B2E;
     background-color: #00FF88;
@@ -134,7 +140,6 @@ header {
     height: 2.75rem;
     align-items: center;
     background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%, rgba(251, 9, 180, 1) 49.819%, rgba(145, 0, 248, 1) 81.648%);
-    ;
     border-radius: 1.56rem;
     font-size: 1rem;
     font-weight: 700;
@@ -325,9 +330,6 @@ header {
 }
 
 /* hero-content section */
-.hero-content .hero-content-mein{
-     margin: 0px 12.5rem;
-}
 
 .hero-content {
    max-width: 1600px;
@@ -342,6 +344,7 @@ header {
     font-size: 3rem;
     font-weight: 700;
     color: #FFFFFF;
+    padding-bottom: 40px;
     text-align: center;
 
 }
@@ -351,8 +354,6 @@ header {
     gap: 1.875rem;
     justify-content: center;
     align-items: center;
-    padding: 2.5rem 12.5rem 7.5rem 12.5rem;
-
 }
 
 .hero-content .hero-Featured .card {
@@ -362,6 +363,8 @@ header {
     background-color: rgb(53, 17, 101, 0.4);
     border-style: none;
     justify-content: center;
+    overflow: hidden;
+
 }
 
 
@@ -466,17 +469,18 @@ footer{
     width: 1600px;
     justify-items: center;
     text-align: center;
-    background-size: 200%;
+    background-size: 110%;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
      background-color: #1A0B2E;
+   
     
 }
-foooter .container{
+footer.container{
     width:85rem;
     height: 1.5rem;
-    padding: 120px;
+    padding: 120px 120px 0px 120px;
 }
 
 footer ul{
@@ -606,7 +610,7 @@ footer ul .youtube-btn img,footer ul .twitter-btn img{
 }
 
 .hero-content .hero-Featured {
-     display: grid;
+    display: grid;
     align-items: center;
    
 }
@@ -629,6 +633,7 @@ footer{
     width: 100%;
     background-size: 200%;
     margin-top: -200px;
+    
    
 }
 footer ul{
@@ -637,12 +642,9 @@ footer ul{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 30px;
+
 }
 footer .container{
    line-height: 30px;
-}
-.footer .container p{
-    padding-top: 24px;
 }
  }
