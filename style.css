@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header {
 
-    max-width: 100%;
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
     background-color: #1A0B2E;
 }
 
@@ -15,16 +16,19 @@ header {
 .navbar {
     display: flex;
     justify-content: space-around;
-    max-width: 100%;
     align-items: center;
-    height: 96px;
-    width: 1600px;
+    height: 6rem;
+    max-width: 1600px;
+    width: 100%;
     background-color: #1A0B2E;
+}
+.hamburger-menu{
+    display: none;
 }
 
 .navbar .nav {
     display: flex;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .navbar .nav li {
@@ -41,14 +45,14 @@ header {
 }
 
 .navbar button {
-    width: 135px;
-    height: 44px;
+    width: 8.437rem;
+    height: 2.75rem;
     align-items: center;
     color: #2A186C;
     background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%, rgba(251, 9, 180, 1) 49.819%, rgba(145, 0, 248, 1) 81.648%);
     ;
-    border-radius: 25px;
-    font-size: 16px;
+    border-radius: 1.56rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
@@ -56,21 +60,19 @@ header {
 }
 
 .navbar .Subscribe p {
-    padding: 12.5px 16px;
+    padding: 12.5px 1rem;
 }
 
 
 /* hero-container style */
 .hero-container {
     background: url(assets/hero-bg.png);
-    max-width: 100%;
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
     background-color: #1A0B2E;
     background-size: 100%;
-    margin-top: 101px;
+    margin-top: 6.31rem;
     background-repeat: no-repeat;
-
-
 }
 
 .hero-container .hero-circle {
@@ -82,8 +84,8 @@ header {
 
 .hero-container .hero-circle .back-img {
     position: relative;
-    height: 350px;
-    width: 350px;
+    height: 21.87rem;
+    width: 21.87rem;
 
 }
 
@@ -94,47 +96,47 @@ header {
 .Badge {
     color: #1A0B2E;
     background-color: #00FF88;
-    width: 75px;
-    height: 38px;
-    border-radius: 25px;
+    width: 4.68rem;
+    height: 2.37rem;
+    border-radius: 1.56rem;
     text-align: center;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.2rem;
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-top: -240px;
+    margin-top: -15rem;
     position: relative;
-    margin-left: -95px;
+    margin-left: -5.93rem;
     cursor: pointer;
 }
 
 .growth {
-    margin-top: 41px;
+    margin-top: 2.56rem;
     text-align: center;
     color: #FFFFFF;
 }
 
 .growth h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 800;
 }
 
 .growth p {
-    font-size: 16px;
+    font-size: 1re;
     font-family: "Inter", sans-serif;
-    margin: 8px;
+    margin: 0.5rem;
 }
 
 .container-btn .btn {
-    width: 201px;
-    height: 44px;
+    width: 12.56rem;
+    height: 2.75rem;
     align-items: center;
     background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%, rgba(251, 9, 180, 1) 49.819%, rgba(145, 0, 248, 1) 81.648%);
     ;
-    border-radius: 25px;
-    font-size: 16px;
+    border-radius: 1.56rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
@@ -142,11 +144,11 @@ header {
 }
 
 .container-btn .btn-1 {
-    width: 147px;
-    height: 44px;
+    width: 9.18rem;
+    height: 2.75rem;
     align-items: center;
-    border-radius: 25px;
-    font-size: 16px;
+    border-radius: 1.57rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #00FF88;
     font-family: "Inter", sans-serif;
@@ -157,14 +159,14 @@ header {
 
 .container-btn {
     display: flex;
-    gap: 8px;
+    gap: 0.5rem;
     justify-content: center;
-    padding-bottom: 101px;
+    padding-bottom: 6.32rem;
 }
 
 .container-btn .btn:hover,.navbar button:hover{
     background: none;
-    border-radius: 25px;
+    border-radius: 1.56rem;
     color: #00FF88;
     font-family: "Inter", sans-serif;
     border-width: 1px;
@@ -186,8 +188,8 @@ header {
 /* About the Podcast section */
 .hero-review {
     background-color: #1A0B2E;
-    max-width: 100%;
-    width: 1600px;
+     max-width: 1600px;
+    width: 100%;
 }
 
 .hero-review .container {
@@ -198,53 +200,54 @@ header {
 }
 
 .hero-review .container h1 {
-    font-size: 60px;
+    font-size: 2rem;
     font-weight: 800;
 }
 
 .hero-review .container p {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Inter", sans-serif;
-    line-height: 20px;
-    margin-top: 16px;
+    line-height: 1.25rem;
+    margin-top: 1rem;
 }
 
 .rating {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    margin: 160px 200px 0px 200px;
+    margin: 10rem 12.5rem 0 12.5rem;
 }
 
 .rating h1 {
     color: #00FF88;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .rating p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #FFFFFF;
-    line-height: 20px;
+    line-height: 1.25rem;
     font-family: "Inter", sans-serif;
-    margin-top: 16px;
-    padding-bottom: 120px;
+    margin-top: 1rem;
+    padding-bottom: 7.5rem;
+    
 }
 
 /* hero-access section */
 
 .hero-access {
     background-color: #230E3D;
-    max-width: 100%;
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
     justify-items: center;
 }
 
 .hero-access-container>* {
-    border-radius: 40px;
+    border-radius: 2.5rem;
     background-color: rgb(53, 17, 101, 0.4);
     border-style: none;
     padding: 2.5rem 0 0 2.5rem ;
-    line-height: 40px;
+    line-height: 2.5rem;
 
 }
 
@@ -265,24 +268,23 @@ header {
     width: 3.75rem;
 }
 .hero-access h1 {
-    font-size: 48px;
+    font-size: 2rem;
     font-weight: 700;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 7.5rem;
 }
 
 .hero-access P {
     font-size: 1rem;
     color: #FFFFFF;
-    line-height: 20px;
+    line-height: 1.25rem;
     font-family: "Inter", sans-serif;
-    margin-top: 16px;
+    margin-top: 1rem;
 }
 
 .Audio {
     grid-area: Audio;
-    /* margin-right: -160px; */
     width: 23.75rem;
     height: 30rem;
 }
@@ -313,7 +315,7 @@ header {
 }
 
 .hero-access-container {
-    gap: 30px;
+    gap: 1.875rem;
     display: grid;
     grid-template-areas:
         "Audio Mobile Mobile"
@@ -324,20 +326,20 @@ header {
 
 /* hero-content section */
 .hero-content .hero-content-mein{
-     margin: 0px 200px;
+     margin: 0px 12.5rem;
 }
 
 .hero-content {
-    max-width: 100%;
-    width: 1600px;
+   max-width: 1600px;
+    width: 100%;
     background-color: #1A0B2E;
-    padding-bottom: 120px;
+    padding-bottom: 7.5rem;
 }
 
 .hero-content .header h1,.hero-hoster h1{
     text-align: center;
-    padding-top: 120px;
-    font-size: 48px;
+    padding-top: 7.5rem;
+    font-size: 3rem;
     font-weight: 700;
     color: #FFFFFF;
     text-align: center;
@@ -346,17 +348,17 @@ header {
 
 .hero-content .hero-Featured {
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
     justify-content: center;
     align-items: center;
-    padding: 40px 200px 120px 200px;
+    padding: 2.5rem 12.5rem 7.5rem 12.5rem;
 
 }
 
 .hero-content .hero-Featured .card {
-    width: 380px;
-    height: 440px;
-    border-radius: 24px;
+    width: 23.75rem;
+    height: 27.5rem;
+    border-radius: 1.5rem;
     background-color: rgb(53, 17, 101, 0.4);
     border-style: none;
     justify-content: center;
@@ -383,23 +385,24 @@ header {
 
 
  .hero-content .hero-Featured .card iframe{
-    border-radius: 24px 24px 0 0 ;
+    border-radius: 1.5rem 1.5rem 0 0 ;
  }
 
 .hero-content .hero-Featured .card h6,.host-info h6 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     font-family: "Inter", sans-serif;
     color: #FFFFFF;
-    padding: 20px 24px 20px 24px;
+    padding: 1.25rem 1.5rem 1.25rem 1.5rem;
 }
 .hero-content .hero-Featured .card p,.host-info p{
-    font-size: 16px;
+    font-size: 1rem;
     color: #FFFFFF;
-    line-height: 20px;
+    line-height: 1.25rem;
     font-family: "Inter", sans-serif;
-    margin-top: 16px;
-    padding: 0px 24px;
+    margin-top: 1rem;
+    padding: 0px 1.5rem;
+    margin:-8px 0px 16px 0px;
 }
 .hero-content .hero-Featured .card .pra{
     color: #00FF88;
@@ -411,42 +414,42 @@ header {
 
 .hero-client-info{
      justify-items: center;
-     max-width: 100%;
-     width: 1600px;
+     max-width: 1600px;
+     width: 100%;
 }
 
 .hero-client{
     text-align: start;
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
     justify-content: center;
     align-items: center;
-    width: 1200px;
-    height: 280px;
-    border-radius: 24px; 
+    width: 75rem;
+    height: 17.5rem;
+    border-radius: 1.5rem; 
     background-color: rgb(53, 17, 101, 0.4);
     border-style: none;
-    padding: 24px 0;
+    padding: 1.5rem 0;
     /* margin-top: 40px; */
     margin: 2.5rem 12.5rem 0px 12.5rem;
     
 }
  
 .host img{
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
 }
 .scial-link{
-    gap:8px;
-    margin-left: 18px;
+    gap:0.5rem;
+    margin-left: 1.125rem;
     display: flex;
        
 }
 .scial-link .scial{
     border-radius: 50%;
-    padding: 12.5px;
-    height: 20px;
-    width: 20px;
+    padding: 0.79rem;
+    height: 1.25rem;
+    width: 1.25rem;
     border-color: #533C72;
     border-width:1px;
     border-style: solid;
@@ -463,39 +466,49 @@ footer{
     width: 1600px;
     justify-items: center;
     text-align: center;
-    background-size: 100%;
+    background-size: 200%;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-
-   
+     background-color: #1A0B2E;
+    
 }
-footer .container{
-    padding-top: 120px;
-    line-height: 30px;
+foooter .container{
+    width:85rem;
+    height: 1.5rem;
+    padding: 120px;
 }
 
 footer ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 42px;
+    gap: 40px;
+    
 }
 footer ul li{
     color: #FFFFFF;
     list-style: none;
     cursor: pointer;
+     
     
 }
 footer ul li:hover{
     color: #00FF88;
 }
 footer p{
-    font-size: 16px;
+    font-size: 1rem;
     color: #FAFAFA;
-    padding-bottom: 100px;
+    padding-bottom:6.25rem;
+     line-height: 1.875rem;
 
 }
+.footer-img{
+padding: 120px 0 0 0;
+
+}
+
+
 .Subscribe button img{
    margin-right: 8px;
    margin-bottom: -4px;
@@ -511,12 +524,125 @@ footer p{
 
 footer ul .spotify-btn img,footer ul .apple-btn img{
        margin-right: 8px;
-      margin-bottom: -5px;
+      margin-bottom: -2px;
 }
 
 footer ul .youtube-btn img,footer ul .twitter-btn img{
        margin-right: 8px;
      margin-bottom: -3px;
 }
+ @media screen and (max-width:576px){
+    .navbar{
+        width: 100%;
+        max-width: 576px;
+        
+    }
+    .navbar .Subscribe, .nav li a{
+        display: none;
+    }
+    .hamburger-menu{
+        display:inline-block;
+        cursor: pointer;
+    }
+    .hero-container {
+    max-width: 576px;
+    width: 100%;
+    background-size: 100%;
+    margin-top: 101px;
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+}
 
+.hero-review{
+       text-align: center;
+}
+.hero-review br,.hero-client br{
+    display: none;
+}
+.hero-review p {
+  padding: 0 24px;
+}
+.rating{
+    max-width: 576px;
+    width: 100%;
+    grid-column: span 2;
+    grid-row: span 2;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 120px 0;
+    gap: 30px;
+    padding-bottom: 7.5rem;
+}
+.hero-access {
+    max-width: 576px;
+    width: 100%;
+    margin-top: -120px;
+    text-align: center;
+     
+    
+}
+.hero-access-container {
+    gap: 1.875rem;
+    display: grid;
+    grid-template-areas:
+        "Audio"
+        "Mobile"
+        "Global"
+        "Exclusive-Interviews "
+        "Resources"
+    ;
+}
+.hero-access-container .Audio,.Mobile,.Global,.Exclusive-Interviews,.Resources{
+    width: 400px;
+    height: 287px;
+    padding: 40px;
+}
+.hero-content {
+    max-width: 576px;
+    width: 100%;
+    justify-items: center;
+    margin-bottom: 120px;
+}
 
+.hero-content .hero-Featured {
+     display: grid;
+    align-items: center;
+   
+}
+.hero-client{
+   display: block;
+    max-width: 576px;
+    width: 100%;
+    text-align: center;
+    height: 483px;
+}
+
+.hero-hoster{
+    margin-top: -120px;
+}
+.scial-link{
+    justify-content: center;
+}
+footer{
+    max-width: 576px;
+    width: 100%;
+    background-size: 200%;
+    margin-top: -200px;
+   
+}
+footer ul{
+     grid-column: span 2;
+    grid-row: span 2;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+footer .container{
+   line-height: 30px;
+}
+.footer .container p{
+    padding-top: 24px;
+}
+ }
